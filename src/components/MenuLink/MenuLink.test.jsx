@@ -5,7 +5,18 @@ import { MenuLink } from '.';
 describe('<MenuLink />', () => {
   it('should render a link', () => {
     renderTheme(<MenuLink link="http://localhost">Children</MenuLink>);
-    expect(screen.getByRole('link', { name: 'Children' })).toHaveAttribute('target', '_self');
+    expect(screen.getByRole('link', { name: 'Children' })).toHaveAttribute(
+      'target',
+      '_self',
+    );
+  });
+
+  it('should render a internal link', () => {
+    renderTheme(<MenuLink link="/localhost">Children</MenuLink>);
+    expect(screen.getByRole('link', { name: 'Children' })).toHaveAttribute(
+      'target',
+      '_self',
+    );
   });
 
   it('should render open in a new tab', () => {
@@ -14,7 +25,10 @@ describe('<MenuLink />', () => {
         Children
       </MenuLink>,
     );
-    expect(screen.getByRole('link', { name: 'Children' })).toHaveAttribute('target', '_blank');
+    expect(screen.getByRole('link', { name: 'Children' })).toHaveAttribute(
+      'target',
+      '_blank',
+    );
   });
 
   it('should render open in a new tab', () => {
