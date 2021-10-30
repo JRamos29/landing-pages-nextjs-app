@@ -7,7 +7,7 @@ import { GridText } from '../../components/GridText';
 import { GridImage } from '../../components/GridImage';
 import { Base } from '../Base';
 import config from '../../config';
-import { theme } from '../../styles/theme';
+import { theme } from '../../styles/theme.ts';
 
 function Home({ data }) {
   const { menu, sections, footerHtml, slug, title } = data[0];
