@@ -66,11 +66,15 @@ describe('<Heading />', () => {
 
   it('should render correct font-size when using mobile', () => {
     renderTheme(<Heading size="huge">texto</Heading>);
-    const heading = screen.getByRole('heading', { name: 'texto' });
+    screen.getByRole('heading', { name: 'texto' });
 
-    expect(heading).toHaveStyleRule('font-size', theme.font.sizes.xlarge, {
-      media: theme.media.lteMedium,
-    });
+    expect(screen.getByRole('heading', { name: 'texto' })).toHaveStyleRule(
+      'font-size',
+      theme.font.sizes.xlarge,
+      {
+        media: theme.media.lteMedium,
+      },
+    );
   });
 
   it('should render with uppercase letters', () => {
@@ -84,6 +88,7 @@ describe('<Heading />', () => {
 
   it('should render correct heading element', () => {
     const { container } = renderTheme(<Heading as="h6">texto</Heading>);
+    screen.getByRole('heading', { name: 'texto' });
     const h6 = container.querySelector('h6');
 
     expect(h6.tagName.toLowerCase()).toBe('h6');
