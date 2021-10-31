@@ -9,7 +9,6 @@ exports[`<SectionContainer /> should render content 1`] = `
 }
 
 <div>
-   
   <div
     class="c0"
   >
@@ -17,6 +16,5 @@ exports[`<SectionContainer /> should render content 1`] = `
       Children
     </h1>
   </div>
-   
 </div>
 `;

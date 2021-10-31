@@ -6,7 +6,10 @@ describe('<GoTop />', () => {
   it('should render a go to top button', () => {
     const { container } = renderTheme(<GoTop />);
     expect(screen.getByRole('link', { name: 'Go to top' })).toBeInTheDocument();
-    expect(screen.getByRole('link', { name: 'Go to top' })).toHaveAttribute('href', '#');
+    expect(screen.getByRole('link', { name: 'Go to top' })).toHaveAttribute(
+      'href',
+      '#',
+    );
     expect(container).toMatchInlineSnapshot(`
       .c0 {
         position: fixed;
@@ -38,7 +41,6 @@ describe('<GoTop />', () => {
       }
 
       <div>
-         
         <a
           aria-label="Go to top"
           class="c0"
@@ -62,7 +64,6 @@ describe('<GoTop />', () => {
             />
           </svg>
         </a>
-         
       </div>
     `);
   });

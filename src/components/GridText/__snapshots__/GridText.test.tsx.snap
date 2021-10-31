@@ -81,7 +81,6 @@ exports[`<GridText /> should render with background 1`] = `
 }
 
 <div>
-   
   <div
     class="c0"
     id=""
@@ -111,7 +110,7 @@ exports[`<GridText /> should render with background 1`] = `
             <h3
               class="c3 c9"
             >
-              Teste 1
+              Test 1
             </h3>
             <div
               class="c5 c6"
@@ -125,7 +124,7 @@ exports[`<GridText /> should render with background 1`] = `
             <h3
               class="c3 c9"
             >
-              Teste 2
+              Test 2
             </h3>
             <div
               class="c5 c6"
@@ -139,7 +138,7 @@ exports[`<GridText /> should render with background 1`] = `
             <h3
               class="c3 c9"
             >
-              Teste 3
+              Test 3
             </h3>
             <div
               class="c5 c6"
@@ -151,7 +150,6 @@ exports[`<GridText /> should render with background 1`] = `
       </div>
     </div>
   </div>
-   
 </div>
 `;
 
@@ -236,7 +234,6 @@ exports[`<GridText /> should render without background 1`] = `
 }
 
 <div>
-   
   <div
     class="c0"
     id=""
@@ -266,7 +263,7 @@ exports[`<GridText /> should render without background 1`] = `
             <h3
               class="c3 c9"
             >
-              Teste 1
+              Test 1
             </h3>
             <div
               class="c5 c6"
@@ -280,7 +277,7 @@ exports[`<GridText /> should render without background 1`] = `
             <h3
               class="c3 c9"
             >
-              Teste 2
+              Test 2
             </h3>
             <div
               class="c5 c6"
@@ -294,7 +291,7 @@ exports[`<GridText /> should render without background 1`] = `
             <h3
               class="c3 c9"
             >
-              Teste 3
+              Test 3
             </h3>
             <div
               class="c5 c6"
@@ -306,6 +303,5 @@ exports[`<GridText /> should render without background 1`] = `
       </div>
     </div>
   </div>
-   
 </div>
 `;

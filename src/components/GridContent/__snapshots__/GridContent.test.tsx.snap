@@ -49,7 +49,6 @@ exports[`<GridContent /> should render grid content 1`] = `
 }
 
 <div>
-   
   <div
     class="c0"
     id=""
@@ -63,7 +62,7 @@ exports[`<GridContent /> should render grid content 1`] = `
         <h2
           class="c3"
         >
-          Some nice title
+          Lorem ipsum dolor sit amet
         </h2>
         <div
           class="c4"
@@ -92,11 +91,13 @@ exports[`<GridContent /> should render grid content 1`] = `
                in turpis pulvinar facilisis. Ut felis.
             </p>
             
+
   
             <h2>
               Header Level 2
             </h2>
             
+
   
             <ol>
               
@@ -113,6 +114,7 @@ exports[`<GridContent /> should render grid content 1`] = `
   
             </ol>
             
+
   
             <blockquote>
               <p>
@@ -120,11 +122,13 @@ exports[`<GridContent /> should render grid content 1`] = `
               </p>
             </blockquote>
             
+
   
             <h3>
               Header Level 3
             </h3>
             
+
   
             <ul>
               
@@ -141,6 +145,7 @@ exports[`<GridContent /> should render grid content 1`] = `
   
             </ul>
             
+
   
             <pre>
               <code>
@@ -158,11 +163,10 @@ exports[`<GridContent /> should render grid content 1`] = `
       </div>
     </div>
   </div>
-   
 </div>
 `;
 
-exports[`<GridContent /> should render grid content with background=undefined 1`] = `
+exports[`<GridContent /> should render grid content 2`] = `
 .c3 {
   color: #0A1128;
   font-size: 6.4rem;
@@ -211,7 +215,6 @@ exports[`<GridContent /> should render grid content with background=undefined 1`
 }
 
 <div>
-   
   <div
     class="c0"
     id=""
@@ -225,7 +228,7 @@ exports[`<GridContent /> should render grid content with background=undefined 1`
         <h2
           class="c3"
         >
-          Some nice title
+          Lorem ipsum dolor sit amet
         </h2>
         <div
           class="c4"
@@ -254,11 +257,13 @@ exports[`<GridContent /> should render grid content with background=undefined 1`
                in turpis pulvinar facilisis. Ut felis.
             </p>
             
+
   
             <h2>
               Header Level 2
             </h2>
             
+
   
             <ol>
               
@@ -275,6 +280,7 @@ exports[`<GridContent /> should render grid content with background=undefined 1`
   
             </ol>
             
+
   
             <blockquote>
               <p>
@@ -282,11 +288,13 @@ exports[`<GridContent /> should render grid content with background=undefined 1`
               </p>
             </blockquote>
             
+
   
             <h3>
               Header Level 3
             </h3>
             
+
   
             <ul>
               
@@ -303,6 +311,7 @@ exports[`<GridContent /> should render grid content with background=undefined 1`
   
             </ul>
             
+
   
             <pre>
               <code>
@@ -320,6 +329,5 @@ exports[`<GridContent /> should render grid content with background=undefined 1`
       </div>
     </div>
   </div>
-   
 </div>
 `;

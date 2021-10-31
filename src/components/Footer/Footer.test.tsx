@@ -39,7 +39,6 @@ describe('<Footer />', () => {
       }
 
       <div>
-         
         <footer
           class="c0"
         >
@@ -55,7 +54,6 @@ describe('<Footer />', () => {
             </div>
           </div>
         </footer>
-         
       </div>
     `);
   });
