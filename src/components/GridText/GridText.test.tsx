@@ -10,7 +10,9 @@ describe('<GridText />', () => {
   });
 
   it('should render without background', () => {
-    const { container } = renderTheme(<GridText {...mock} background={undefined} />);
+    const { container } = renderTheme(
+      <GridText {...mock} background={undefined} />,
+    );
     expect(container).toMatchSnapshot();
   });
 });

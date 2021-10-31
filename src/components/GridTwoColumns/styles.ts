@@ -7,10 +7,12 @@ export const Container = styled.div`
     grid-template-columns: 1fr 2fr;
     align-items: center;
     gap: ${theme.spacings.large};
+
     @media ${theme.media.lteMedium} {
       grid-template-columns: 1fr;
       text-align: center;
     }
+
     ${Title} {
       margin-bottom: ${theme.spacings.xlarge};
     }
@@ -25,10 +27,8 @@ export const TextContainer = styled.div`
   `}
 `;
 
-export const ImageContainer = styled.div`
-  ${() => css``}
-`;
+export const ImageContainer = styled.div``;
 
 export const Image = styled.img`
-  ${() => css``}
+  width: 100%;
 `;
